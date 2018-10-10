@@ -25,6 +25,11 @@ function shuffle(array) {
     return array;
 }
 
+const allCards = document.querySelectorAll('.card');
+
+document.getElementById('deck').addEventListener('click',function(e) {
+        card.classList.add('open', 'show');
+)};
 
 /*
  * set up the event listener for a card. If a card is clicked:
